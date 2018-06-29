@@ -1,0 +1,533 @@
+/********************************
+    Start Global
+*******************************/
+
+a, a:focus, a:active, a:hover {
+    outline: none;
+    text-decoration: none;
+}
+
+a {
+    transition: all .4s ease;
+}
+
+.clear {
+    clear: both;
+}
+
+/********************************
+    End Global
+*******************************/
+
+
+
+
+
+.has-error .checkbox, .has-error .checkbox-inline,
+.has-error .control-label,
+.has-error .form-control-feedback,
+.has-error .help-block,
+.has-error .radio,
+.has-error .radio-inline,
+.has-error.checkbox label,
+.has-error.checkbox-inline label,
+.has-error.radio label,
+.has-error.radio-inline label {
+    color: #e73d4a;
+}
+
+.help-block {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: absolute;
+    bottom: -10px;
+}
+
+
+.login-form input[type=checkbox] {
+    margin-right: 3px;
+    position: relative;
+    top: 2px;
+}
+
+.login-form small {
+    float: right;
+    position: relative;
+    top: 3px;
+}
+
+
+.user-profile .dropbtn {
+    background-color: #FFC107;
+    color: #fff;
+    font-weight: 500;
+    padding: 5px 30px;
+    font-size: 15px;
+    position: relative;
+    border: none;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+
+    webkit-border-radius: 25px!important;
+    -moz-border-radius: 25px!important;
+    -ms-border-radius: 25px!important;
+    border-radius: 25px!important;
+}
+
+.user-profile .img-user {
+    position: relative;
+    right: 23px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.user-profile button span {
+    position: relative;
+    right: 6px;
+}
+
+.user-profile.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.user-profile .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    margin-top: 15px;
+    margin-left: -67px;
+}
+
+.user-profile .dropdown-content:before {
+    content: '';
+    position: absolute;
+    top: -8px;
+    right: 10px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+}
+
+.user-profile .dropdown-content:after {
+    content: '';
+    position: absolute;
+    top: -16px;
+    left: 0;
+    width: 100%;
+    height: 17px;
+    background: transparent;
+}
+
+.user-profile .dropdown-content a {
+    color: #FFC107 !important;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+    border-bottom: 1px solid #eee;
+    font-size: 13px;
+}
+
+.user-profile .dropdown-content a i {
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.user-profile .dropdown-content a:hover {
+    background-color: #FFC107;
+    color: #fff !important;
+}
+
+.user-profile.dropdown:hover .dropdown-content {display: block;}
+
+.user-profile.dropdown:hover .dropbtn {
+    background-color: #3f9fff;
+    opacity: 1;
+}
+
+.events .main_title_2 h2,
+.events .main_title_2 p {
+    color: #fff;
+}
+
+
+.pagination li {
+    display: inline-block;
+    float: left;
+    font-size: 1.1rem;
+    color: #f6931e;
+    border: 1px solid #ddd;
+}
+.pagination li:nth-child(1n + 2) {
+    border-left: none;
+}
+.pagination a {
+    text-decoration: none;
+}
+.pagination a:hover {
+    background-color: #ededed;
+}
+.pagination span {
+    cursor: not-allowed;
+}
+.pagination a, .pagination span {
+    display: block;
+    color: #f6931e;
+    background-color: #fff;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+}
+
+
+.pagination .active span {
+    background-color: #f6931e;
+    color: #fff;
+    border-color: #f6931e;
+}
+
+.render-pages {
+    display: table;
+    margin: auto;
+}
+
+.title-color {
+    color: #f6931e;
+    margin-bottom: 30px;
+    border-bottom: 4px double #ccc;
+    display: inline-block;
+    padding: 0 10px 5px;
+}
+
+.box_detail .price .original_price {
+    font-size: 19px;
+    color: #f6931e;
+}
+
+.box_detail .price {
+    margin: 0 -11px 0;
+}
+
+
+.alert ul {
+    margin-bottom: 0;
+}
+
+.alert p {
+    margin-bottom: 0;
+}
+
+
+
+.small-video {
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.hand-style {
+    margin-top: 30px;
+    height: 140px;
+    line-height: 140px;
+}
+
+.hand-hold-white {
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.hand-hold-red {
+    display: none;
+    text-align: center;
+    width: 80px;
+    cursor: pointer;
+}
+
+.hand-style {
+    width: 100%;
+    border: 1px dashed #ccc;
+}
+
+.chat-video {
+    background: #fff;
+    width:100%;
+    height:451px;
+    border: 2px solid #eee;
+    padding: 0 2px 10px 5px;
+    position: relative;
+}
+
+.chat-video .section-messages {
+    height: 333px;
+    overflow-y: auto;
+}
+.section-messages_original{
+    min-height: 60px;
+}
+
+.chat-video .section-messages::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+.chat-video .section-messages::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.chat-video .section-messages::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.chat-video .section-messages::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+    /* width */
+.chat-video .section-messages::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat-video h3 {
+    background-color: #f6931e;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    padding: 8px 15px;
+    border-radius: 5px;
+    position: relative;
+    top: -20px;
+    left: 20px;
+    margin-bottom: 0;
+}
+
+.chat-video p {
+    font-size: 14px;
+    background-color: rgb(199, 175, 70);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 3px;
+    position: relative;
+    margin-bottom: 8px;
+    /* margin-left: 10px; */
+}
+.no-padding{
+padding: 0;
+}
+
+.chat-video-right p:before {
+    content: '';
+    position: absolute;
+    top: 13px;
+    left: -9px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-right: 10px solid rgb(199, 175, 70);
+}
+
+.chat-video .color-message {
+    background-color: #f6931e;
+    color: #fff;
+    float: right;
+    margin-right: 10px;
+}
+
+.chat-video .color-message:after {
+    content: '';
+    position: absolute;
+    top: 13px;
+    right: -9px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #f6931e;
+}
+
+
+.chat-video .color-message:before {
+    display: none;
+}
+
+.chat-video .send-message {
+    margin-top: 25px;
+}
+
+.chat-video .send-message input {
+    float: left;
+    width: 80%;
+    border: 1px solid #ccc;
+    height: 35px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.chat-video .send-message button {
+    border: 0;
+    background-color: #f6931e;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.chat-video .send-message img {
+    width: 20px;
+    position: relative;
+    top: -2px;
+    left: -2px;
+}
+
+.user-notes {
+    background-color: #fff;
+    height: 300px;
+    width: 100%;
+    overflow-y: auto;
+    margin-top: 50px;
+    padding: 0 15px;
+}
+
+.user-notes h3 {
+    padding: 13px;
+    border-bottom: 1px solid #ccc;
+    font-size: 18x;
+}
+
+.user-notes p {
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-notes textarea {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    height: 200px;
+    resize: vertical;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+
+
+.sections-class,
+.join-classes {
+    border: 1px solid #ccc;
+    padding: 30px 20px;
+    background-color: #fff;
+}
+
+.join-classes {
+    height: 498px;
+    overflow-y: auto;
+}
+
+.join-classes .course-with-classes {
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.join-classes .course-with-classes:last-child {
+    border-bottom: 0;
+}
+
+.join-classes .course-with-classes p {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 16px;
+    color: #f6931e;
+}
+
+.join-classes .course-with-classes ul {
+    width: 100%;
+    margin-left: 12px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+
+.join-classes .course-with-classes ul li {
+    padding-bottom: 5px;
+}
+
+.join-classes .course-with-classes ul li a {
+    color: #333;
+    font-size: 15px;
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.join-classes .course-with-classes ul li a i {
+    color: #f6931e;
+    position: relative;
+    top: 1px;
+    margin-right: 5px;
+}
+
+.join-classes .course-with-classes ul li a:hover {
+    color: #f6931e;
+}
+
+.sections-class h4 {
+    text-align: center;
+    color: #f6931e;
+    margin-bottom: 10px;
+}
+
+.sections-class .sec-class {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    background-color: #fff;
+    height: 400px;
+}
+
+.sections-class .sec-class a {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    color: #444;
+    font-size: 15px;
+    overflow-y: auto;
+
+    -webkit-transition: all .4s ease;
+    -moz-transition: all .4s ease;
+    transition: all .4s ease;
+}
+
+.sections-class .sec-class a:hover {
+    color: #f6931e;
+}
+
+
+.not-search {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 50px;
+    color: #444;
+}
